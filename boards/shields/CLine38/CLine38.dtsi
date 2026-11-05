@@ -15,7 +15,7 @@
         transform = <&default_transform>;
         kscan = <&kscan0>;
 
-        keys  //                     w   h     x    y   rot   rx   ry
+       keys  //                     w   h     x    y   rot   rx   ry
             = <&key_physical_attrs 100 100     0    0     0    0    0> //  0: L-SW1
             , <&key_physical_attrs 100 100   100    0     0    0    0> //  1: L-SW2
             , <&key_physical_attrs 100 100   200    0     0    0    0> //  2: L-SW3
