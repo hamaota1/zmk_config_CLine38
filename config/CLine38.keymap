@@ -34,6 +34,16 @@
             bindings = <&kp LG(LEFT)>;
             key-positions = <7 8>;
         };
+
+        TabFwd {
+            bindings = <&kp LC(TAB)>;
+            key-positions = <18 19>;
+        };
+
+        TabBack {
+            bindings = <&kp LS(LC(TAB))>;
+            key-positions = <17 18>;
+        };
     };
 
     macros {
