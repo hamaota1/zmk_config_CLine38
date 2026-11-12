@@ -274,7 +274,11 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
 combos:
-- p: [12, 13]
+- p: [1, 2]
   k: TAB
-- p: [11, 12]
-  k: Sft+TAB
+- p: [0, 1]
+  k: ESC
+- p: [9, 8]
+  k: Gui+RIGHT
+- p: [7, 8]
+  k: Gui+LEFT
