@@ -35,7 +35,7 @@ layers:
   - LALT
   - LEFT GUI
   - {t: SPACE, h: Number}
-  - {t: ESC, h: '5'}
+  - {t: CAPSLOCK, h: '5'}
   - {t: RET, h: Arrow}
   - BSPC
   - {t: TAB, h: BLE}
