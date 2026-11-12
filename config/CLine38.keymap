@@ -17,12 +17,22 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <12 13>;
+            key-positions = <1 2>;
         };
 
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <11 12>;
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <0 1>;
+        };
+
+        CHAR+ {
+            bindings = <&kp LG(RIGHT)>;
+            key-positions = <9 8>;
+        };
+
+        BACK {
+            bindings = <&kp LG(LEFT)>;
+            key-positions = <7 8>;
         };
     };
 
