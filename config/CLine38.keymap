@@ -25,7 +25,7 @@
             key-positions = <0 1>;
         };
 
-        CHAR+ {
+        Fwd {
             bindings = <&kp LG(RIGHT)>;
             key-positions = <9 8>;
         };
@@ -43,6 +43,16 @@
         TabBack {
             bindings = <&kp LS(LC(TAB))>;
             key-positions = <17 18>;
+        };
+
+        AndFwd {
+            bindings = <&kp LA(RIGHT)>;
+            key-positions = <7 8 9>;
+        };
+
+        AndBack {
+            bindings = <&kp LA(LEFT)>;
+            key-positions = <6 7 8>;
         };
     };
 
