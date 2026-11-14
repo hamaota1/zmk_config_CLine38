@@ -286,3 +286,7 @@ combos:
   k: Ctl+TAB
 - p: [17, 18]
   k: Sft+Ctl+TAB
+- p: [7, 8, 9]
+  k: Alt+RIGHT
+- p: [6, 7, 8]
+  k: Alt+LEFT
